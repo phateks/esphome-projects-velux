@@ -9,6 +9,9 @@ Installing it on the remote only requires removing the back and batteries, solde
 
 It runs on anywhere between 5V and 12V, though 5V is preferred.
 
+> [!NOTE]
+> You can find gerbers, STLs and an HTML BOM file [on the release page](https://github.com/thorio/esphome-projects/releases/tag/velux-controller-v2).
+
 ![interior view](media/interior.jpg)
 
 ## Bill of Materials
