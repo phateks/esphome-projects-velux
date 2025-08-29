@@ -60,7 +60,8 @@ It runs on anywhere between 5V and 12V, though 5V is preferred.
 
 I didn't need these, but you can add them if your ESP is unhappy with the supply voltage:
 
-> Note: It isn't super obvious from the footprints, but these additional capacitors are supposed to mount horizontally against the board facing toward the bottom. If mounted vertically they may prevent the case from being closed.
+> [!NOTE]
+> It isn't super obvious from the footprints, but the additional electrolytic capacitors are supposed to mount horizontally against the board facing toward the bottom. If mounted vertically they may prevent the case from being closed.
 
 - 1x 470μF >=5V electrolytic capacitor, 2mm pitch
 	([DigiKey](https://www.digikey.com/en/products/detail/wurth-elektronik/860010273011/5726952),
@@ -68,7 +69,8 @@ I didn't need these, but you can add them if your ESP is unhappy with the supply
 - 1x 10μF >=16V electrolytic capacitor, 1.5mm pitch
 	([DigiKey](https://www.digikey.com/en/products/detail/nichicon/UVR1C100MDD6TP/4328964),
 	[AliExpress assortment](https://www.aliexpress.com/item/1940215752.html))
-
+- 1x 0805 10μF >=16V ceramic capacitor
+	([AliExpress](https://www.aliexpress.com/item/32964553793.html))
 
 ## Attribution
 Thanks to these fine people for their research on how to interface with the remote control:
